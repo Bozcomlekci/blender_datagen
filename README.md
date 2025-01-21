@@ -65,9 +65,9 @@ To change the light settings, change `light_settings/settings.json` file and  pr
 
 To change the camera settings, change `cam_settings/3dcustom.json` or `cam_settings/4dcustom.json` file and  provide with desired camera setting. [Further instructions...](cam_settings/README.md)
 
-To impose specific settings tailored to your data, made changes to the data config files under `data_settings` folder. [Further instructions...](data_settings/README.md)
+To impose specific settings tailored to your data, make the changes to the data config files under `data_settings` folder. [Further instructions...](data_settings/README.md)
 
-To alter how your camera intrinsics and extrinsics are saved, make . [Further instructions...](cam_file_settings/README.md)
+To alter how your camera intrinsics and extrinsics are saved, make the changes to the cam file settings in `cam_file_settings` folder. [Further instructions...](cam_file_settings/README.md)
 
 See [scripts](scripts/README.md) directory for example scripts to run
 
