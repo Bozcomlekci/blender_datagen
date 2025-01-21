@@ -1,0 +1,6 @@
+{
+    "file_name": "transforms_test",
+    "img_extension": "png",
+    "include_img_extension": false,
+    "include_intrinsics_details": false
+}

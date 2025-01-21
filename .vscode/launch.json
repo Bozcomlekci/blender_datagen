@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "3D",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generate.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--samples_folder", "samples/CloSe-Di",
+                "--num_views", "18",
+                "--split_name", "images",
+                "--cam_settings", "cam_settings/3dcustom.json",
+                "--light_settings", "light_settings/basic.json",
+                "--cam_file_settings", "cam_file_settings/basic.json",
+                "--data_settings", "data_settings/basic.json",
+                // "--render_mask_ids",
+                // "--render_silhouettes"
+            ]
+        },
+        {
+            "name": "4D", 
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/4dgenerate.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--samples_folder", "/media/ubuntu/de913785-23f5-4ac8-8976-b01d604dc446/Datasets/xhumans/_X_Humans_00016/00016/train/Take2",
+                "--split_name", "train",
+                "--cam_settings", "cam_settings/monocular.json",
+                "--light_settings", "light_settings/settings.json",
+                "--fourd_fpt", "1"
+            ]
+        },
+        {
+            "name": "Multi", 
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/generate.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--samples_folder", "assets/examples",
+                "--num_views", "20",
+                "--split_name", "mask",
+                "--cam_settings", "cam_settings/multi.json",
+                "--light_settings", "light_settings/multi.json",
+                "--cam_file_settings", "cam_file_settings/settings.json",
+                "--data_settings", "data_settings/multi.json",
+                "--config_name", "multi",
+                // "--render_mask_ids"
+            ]
+        }
+    ]   
+}

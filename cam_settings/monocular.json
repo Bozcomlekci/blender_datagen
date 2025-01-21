@@ -1,0 +1,7 @@
+{
+    "nvs_setting": "4d",
+    "radius": 8,
+    "camera_type": "perspective",
+    "focalLength":45,
+    "resolution": 800
+}

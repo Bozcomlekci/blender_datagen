@@ -1,0 +1,11 @@
+{
+    "color_mode": "rgb",
+    "include_file": true,
+    "render_folder_together": true,
+    "data_types": [],
+    "location": [0.0, 0.0, 0.0],
+    "rotation_euler": [90, 0, 180], 
+    "scale": [1, 1, 1],
+    "include_objs": true,
+    "include_metadata": true
+}

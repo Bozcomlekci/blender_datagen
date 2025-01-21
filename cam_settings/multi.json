@@ -1,0 +1,7 @@
+{
+    "nvs_setting": "3d",
+    "radius": 2,
+    "camera_type": "perspective",
+    "focalLength": 45,
+    "resolution": 1024
+}

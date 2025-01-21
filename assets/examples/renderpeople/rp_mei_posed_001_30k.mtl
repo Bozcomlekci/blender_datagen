@@ -1,0 +1,12 @@
+# MTL file for rp_mei_posed_001_30k.obj
+newmtl material_0
+Ka 1.000 1.000 1.000  # Ambient color
+Kd 1.000 1.000 1.000  # Diffuse color
+Ks 0.500 0.500 0.500  # Specular color
+Ns 10.000  # Specular exponent
+Ni 1.000  # Optical density
+d 1.0  # Dissolve (1 = fully opaque)
+illum 2  # Illumination model (2 = color on and ambient off)
+
+# Texture maps for material_0
+map_Kd rp_mei_posed_001_dif_2k.jpg  # Diffuse map

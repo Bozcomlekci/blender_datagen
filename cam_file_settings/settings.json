@@ -1,0 +1,6 @@
+{
+    "file_name": "transforms",
+    "img_extension": "png",
+    "include_img_extension": true,
+    "include_intrinsics_details": true
+}
